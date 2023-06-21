@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap");
+
+/* -------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container1 {
+  color: #e5e5e5;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+/* ------------------------------------------------------------ */
+.main {
+   height: auto;
+   width: 100vw;
+   display: flex;
+   background-image: url("C:\Users\subhr\Desktop\New folder (2)\csv\assets\bk.jpg");
+   font-family: "Maven Pro", sans-serif;
+}
+
+.headingText {
+   margin-top: 30px;
+   font-size: 2.5rem;
+   text-align: center;
+   color: white;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   /* Change your font family */
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   border: 2x solid black;
+   width: 60%;
+   background: #da0ccc;
+   height: 100vh;
+   align-items: center;
+}
+
+.habit-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgb(250, 249, 246);
+   padding: 30px 0px;
+   border-radius: 8px;
+   box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.5);
+   width: 30rem;
+}
+
+#fileInput {
+   width: 80%;
+   border-radius: 8px;
+   box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+}
+
+.labelContainer {
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+
+   margin-top: 25px;
+}
+
+/* //List to display */
+
+.listContainer {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+}
+
+.fileListRow {
+   margin-top: 20px;
+   display: flex;
+
+   align-content: center;
+   width: 100%;
+
+   /* // align-items: center; */
+   border-radius: 8px;
+   box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+
+   justify-content: space-between;
+   padding: 10px 25px;
+   /* // padding-right: 10px; */
+
+   background-color: rgb(250, 249, 246);
+}
+
+.habitDsc {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 15px;
+   font-size: 0.9rem;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+/* HTML CSSResult Skip Results Iframe EDIT ON @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700); */
+
+* {
+   font-family: Open Sans;
+}
+
+.footer-distributed {
+   background: #666;
+   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+   box-sizing: border-box;
+   width: auto;
+   text-align: left;
+   font: bold 16px sans-serif;
+   padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+   display: inline-block;
+   vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+   width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+   color: #ffffff;
+   font: normal 36px 'Open Sans', cursive;
+   margin: 0;
+}
+
+.footer-distributed h3 span {
+   color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+   color: #ffffff;
+   margin: 20px 0 12px;
+   padding: 0;
+}
+
+.footer-distributed .footer-links a {
+   display: inline-block;
+   line-height: 1.8;
+   font-weight: 400;
+   text-decoration: none;
+   color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+   color: #222;
+   font-size: 14px;
+   font-weight: normal;
+   margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+   width: 35%;
+}
+
+.footer-distributed .footer-center i {
+   background-color: #33383b;
+   color: #ffffff;
+   font-size: 25px;
+   width: 38px;
+   height: 38px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 42px;
+   margin: 10px 15px;
+   vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+   font-size: 17px;
+   line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+   display: inline-block;
+   color: #ffffff;
+   font-weight: 400;
+   vertical-align: middle;
+   margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+   display: block;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+   color: lightseagreen;
+   text-decoration: none;
+   ;
+}
+
+.footer-distributed .footer-links a:before {
+   content: "|";
+   font-weight: 300;
+   font-size: 20px;
+   left: 0;
+   color: #fff;
+   display: inline-block;
+   padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+   content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+   width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+   line-height: 20px;
+   color: #92999f;
+   font-size: 13px;
+   font-weight: normal;
+   margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+   display: block;
+   color: #ffffff;
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+   margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   cursor: pointer;
+   background-color: #33383b;
+   border-radius: 2px;
+
+   font-size: 20px;
+   color: #ffffff;
+   text-align: center;
+   line-height: 35px;
+
+   margin-right: 3px;
+   margin-bottom: 5px;
+}
+
+/* -------------------------------- */
+
+.loader {
+   position: absolute;
+   top: calc(50% - 32px);
+   left: calc(50% - 32px);
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   perspective: 800px;
+}
+
+.inner {
+   position: absolute;
+
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+
+.inner.one {
+   left: 0%;
+   top: 0%;
+   animation: rotate-one 1s linear infinite;
+   border-bottom: 3px solid #f70202;
+}
+
+.inner.two {
+   right: 0%;
+   top: 0%;
+   animation: rotate-two 1s linear infinite;
+   border-right: 3px solid #f3f303;
+}
+
+.inner.three {
+   right: 0%;
+   bottom: 0%;
+   animation: rotate-three 1s linear infinite;
+   border-top: 3px solid #0606fa;
+}
+
+@keyframes rotate-one {
+   0% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+   }
+
+   100% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+   }
+}
+
+@keyframes rotate-two {
+   0% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+   }
+
+   100% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+   }
+}
+
+@keyframes rotate-three {
+   0% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+   }
+
+   100% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+   }
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+   .footer-distributed {
+      font: bold 14px sans-serif;
+   }
+
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+   }
+
+   .footer-distributed .footer-center i {
+      margin-left: 0;
+   }
+
+}
